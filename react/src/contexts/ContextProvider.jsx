@@ -196,7 +196,7 @@ export const ContextProvider = ({ children }) => {
     });
 
     const [userToken, setUserToken] = useState("1234");
-    const [surveys, setSurveys] = useState([tmpSurveys]);
+    const [surveys, setSurveys] = useState(tmpSurveys);
 
     return (
         <StateContext.Provider
